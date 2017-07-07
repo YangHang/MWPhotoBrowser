@@ -429,7 +429,7 @@ static void * MWVideoPlayerObservation = &MWVideoPlayerObservation;
 
 - (void)willMoveToParentViewController:(UIViewController *)parent {
     if (parent && _hasBelongedToViewController) {
-        [NSException raise:@"MWPhotoBrowser Instance Reuse" format:@"MWPhotoBrowser instances cannot be reused."];
+//        [NSException raise:@"MWPhotoBrowser Instance Reuse" format:@"MWPhotoBrowser instances cannot be reused."];
     }
 }
 
